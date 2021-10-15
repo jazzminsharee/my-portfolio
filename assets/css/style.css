@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(222, 222, 222);
+}
+
+header, footer {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.name {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: indigo;
+}
+
+header h1, .contact-me h2 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav, footer nav {
+    margin: 7px 0;
+}
+
+header nav ul, footer nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color:lightcoral;
+}
+
+header nav ul li a, footer nav ul a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero div {
+    background-image: url("../images/drops-4926381_1280.jpeg");
+    background-size: cover;
+    background-position: bottom;
+    background-position: center;
+    border: 3px solid black;
+    margin: 0;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+   color:papayawhip;
+   vertical-align: bottom;
+}
+
+.about-me {
+    display: flex;
+    width: 80%;
+    text-align: center;
+    line-height: 1.7;
+    color:hotpink;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.about-me p {
+    margin-top: 30px;
+    border: 1px solid black;
+}
+
+.about-me h2 {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.photo img {
+    height: 300px;
+    width: 200px;
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 30px;
+    padding: 50px;
+}
+
+.projects {
+    border: 3px solid black;
