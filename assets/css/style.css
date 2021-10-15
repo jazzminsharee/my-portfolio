@@ -66,9 +66,13 @@ header nav ul li a, footer nav ul a {
     flex-direction: column;
 }
 
-.quote {
+.hero div h2 {
    color:papayawhip;
-   vertical-align: bottom;
+   background-attachment: fixed;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 3px white solid;
 }
 
 .about-me {
@@ -95,13 +99,12 @@ header nav ul li a, footer nav ul a {
     height: 300px;
     width: 200px;
 
-.intro {
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid black;
-    margin: 30px;
-    padding: 50px;
+.projects p {
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
 }
 
-.projects {
-    border: 3px solid black;
+.run-buddy {
+    background-image: url("../images/Screen\ Shot\ 2021-10-15\ at\ 2.26.44\ PM.png");
+}
