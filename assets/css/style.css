@@ -57,9 +57,18 @@ header nav ul li a, footer nav ul a {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+footer a:hover {
+    text-decoration: none;
+}
+
 .contact-me h4 {
     color: blueviolet;
 }
+
+.contact-me h4:hover {
+    color: cornflowerblue;
+}
+
 /* HEADER&FOOTER STYLING END */
 
 /* HERO STYLING START */
@@ -77,11 +86,12 @@ header nav ul li a, footer nav ul a {
 
 .hero div h2 {
    color:papayawhip;
+   font-style: oblique;
    background-attachment: fixed;
    display: flex;
    justify-content: center;
    align-items: center;
-   border: 3px white solid;
+   border: 3px white double;
    margin-top: 200px;
 }
 /* HERO STYLING END */
@@ -169,7 +179,10 @@ header nav ul li a, footer nav ul a {
 
 .run-buddy-text {
     text-decoration: none;
+    color: black;
     background-color: white;
+    border-radius: 50px;
+    padding: 3px;
     margin-left: 20px;
 }
 
@@ -263,3 +276,24 @@ header nav ul li a, footer nav ul a {
         margin: 0 auto;
     }
 }
+
+@media screen and (max-width: 600px) {
+    header h1, .contact-me h4{
+        font-size: 5vw;
+    }
+    
+    header nav ul li a, footer nav ul a {
+        font-size: 3vw;
+    }
+    
+    .run-buddy {
+        width: 485px;
+        height: 385px;
+    }
+
+    .thumbnail {
+        width: 385px;
+    }
+}
+
+/* MEDIA QUERY END */
