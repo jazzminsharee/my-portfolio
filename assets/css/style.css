@@ -191,7 +191,7 @@ footer a:hover {
     height: 300px;
     display: flex;
     justify-content: center;
-    margin: 50px 0;
+    margin: 50px 20px;
     border:rgb(40, 64, 175) 2px solid;
 }
 
@@ -221,7 +221,13 @@ footer a:hover {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 
-@media screen and (max-wdith: 1099px) {
+@media screen and (max-width: 1249px) {
+    .thumbnail {
+        margin: 50px 0;
+    }
+}
+
+@media screen and (max-width: 1099px) {
     header nav ul li a, footer nav ul a {
         font-size: 2vw;
     }
