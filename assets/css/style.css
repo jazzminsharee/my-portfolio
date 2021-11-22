@@ -217,6 +217,12 @@ footer a:hover {
     background-position: center;
 }
 
+.Lyrical {
+    background-image: url("../images/Lyrical.png");
+    background-size: cover;
+    background-position: center;
+}
+
 /* PROJECTS STYLING END */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
